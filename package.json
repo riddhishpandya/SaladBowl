@@ -1,0 +1,23 @@
+{
+  "name": "saladbowl",
+  "version": "1.0.0",
+  "description": "SaladBowl game",
+  "main": "hellonode.js",
+  "scripts": {
+    "start": "node server/server.js"
+    "lint": "eslint src/js"
+  },
+  "engines": {
+    "node": "12.16.2"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.2",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  }
+}

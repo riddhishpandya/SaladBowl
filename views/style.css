@@ -1,0 +1,39 @@
+/* selector {property:value;} */
+
+h1 {
+  color: red;
+  font-size: 50px;
+
+}
+
+.row {
+  border: 3px solid blue;
+}
+
+.shell1 {
+  height: 100vh;
+}
+
+.container,.col {
+  border: 3px solid red;
+  box-shadow: 5px 4px 20px black;
+  transition: all 1s;
+}
+
+.container:hover, .col:hover {
+  transform: scale(1.1);
+  box-shadow: 10px 8px 30px black;
+}
+
+.col {
+  border: 3px solid black;
+}
+
+.v-center{
+  position: relative;
+}
+
+.shell1-flex {
+  display: flex;
+  align-items: center;
+}
