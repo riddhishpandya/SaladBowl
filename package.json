@@ -4,7 +4,7 @@
   "description": "SaladBowl game",
   "main": "hellonode.js",
   "scripts": {
-    "start": "node server/server.js"
+    "start": "node server/server.js",
     "lint": "eslint src/js"
   },
   "engines": {
@@ -15,7 +15,8 @@
   "dependencies": {
     "cors": "^2.8.5",
     "ejs": "^3.1.2",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
   },
   "devDependencies": {
     "eslint": "^6.8.0"
